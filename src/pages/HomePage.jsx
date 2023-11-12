@@ -6,6 +6,7 @@ import twitterLogo from '../assets/images/twitter-logo.png';
 import igLogo from "../assets/images/ig-logo.png";
 import { Carousel } from 'flowbite-react';
 import About from "../components/About";
+import Services from "../components/Services";
 
 
 const HomePage = () => {
@@ -80,9 +81,12 @@ const HomePage = () => {
                     </Carousel>
                 </div>
             </div> 
-            <div className="about-landing border px-8 py-4">
+            <div className="about-landing px-8 py-4 border">
                 <About />
-            </div>      
+            </div> 
+            <div className="services-landing border px-8 py-4">
+                <Services />
+            </div>     
         </div>
     )
 }
