@@ -3,9 +3,9 @@ import checkMark from "../assets/images/checkbox.png"
 const About = () => {
     return (
         <div className="border-t pt-4">
-            <div className="about-intro">
+            {/* <div className="about-intro">
                 <p className="font-semibold text-gray-600">01. Who we are</p>
-            </div>
+            </div> */}
             <div className="about-content flex justify-between mt-12 gap-16">
                 <div className="about-content-img w-1/2">
                     <img src={AboutImg} alt="about landing" className="h-full" />

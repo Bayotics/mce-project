@@ -7,6 +7,7 @@ import igLogo from "../assets/images/ig-logo.png";
 import { Carousel } from 'flowbite-react';
 import About from "../components/About";
 import Services from "../components/Services";
+import WhyUs from "../components/WhyUs";
 
 
 const HomePage = () => {
@@ -86,6 +87,9 @@ const HomePage = () => {
             </div> 
             <div className="services-landing border px-8 py-4">
                 <Services />
+            </div>
+            <div className="whyUs-landing border px-8 py-4">
+                <WhyUs />
             </div>     
         </div>
     )
