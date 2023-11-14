@@ -1,6 +1,12 @@
-import employees from "../assets/images/pngs/employees.png"
-import maxPower from "../assets/images/pngs/maxPower.png"
-import chemical from "../assets/images/pngs/chemical.png"
+import engineer from "../assets/images/pngs/engineer.png";
+import maxPower from "../assets/images/pngs/pipeline.png";
+import oilRig from "../assets/images/pngs/rig.png";
+import development from "../assets/images/pngs/development.png";
+import flask from "../assets/images/pngs/flask.png";
+import tank from "../assets/images/pngs/tank.png"
+import gasStation from "../assets/images/pngs/gas_station.png"
+import recycle from "../assets/images/pngs/recycle.png";
+
 
 const WhyUs = () => {
     return(
@@ -10,46 +16,81 @@ const WhyUs = () => {
                 <div className="w-1/12 services-span"></div>
                 <p className="mt-4 text-gray-500 text-lg font-medium">To Numerous Customers, including Government Buildings, Residences, and Offices</p>
             </div>
-            <div className="flex whyus-upper border">
-                <div className="whyus-item border w-1/4">
+            <div className="flex whyus-upper border mt-4">
+                <div className="whyus-item border w-1/4 py-6">
                     <div className="why-us-img-main border">
-                        <img className="why-us-img" src = {employees} alt="employees"/>
+                        <img className="why-us-img" src = {engineer} alt="employees"/>
                     </div>
-                    <div className="whyus-item-captions text-center mt-8">
-                        <h1 className=" font-medium">Dedicated Personnel</h1>
-                        <p className="text-sm mt-2 text-gray-600">Together, we create a dynamic work environment where creativity thrives, ideas flourish, and challenges are met with enthusiasm</p>
+                    <div className="whyus-item-captions text-center mt-8 px-8">
+                        <h1 className="font-medium">Dedicated Personnel</h1>
+                        <p className="text-sm mt-2 text-gray-600">Together, we create a dynamic work environment where creativity thrives, and challenges are met with enthusiasm</p>
                     </div>
                 </div>
-                <div className="whyus-item border w-1/4">
+                <div className="whyus-item border w-1/4 py-6">
                     <div className="why-us-img-main border">
                         <img className="why-us-img" src = {maxPower} alt="employees"/>
                     </div>
-                    <div className="whyus-item-captions text-center mt-8">
-                        <h1 className=" font-medium">Dedicated Personnel</h1>
-                        <p className="text-sm mt-2 text-gray-600">Together, we create a dynamic work environment where creativity thrives, ideas flourish, and challenges are met with enthusiasm</p>
+                    <div className="whyus-item-captions text-center mt-8 px-8">
+                        <h1 className=" font-medium">Peak Power</h1>
+                        <p className="text-sm mt-2 text-gray-600">We harness maximum power from petroleum reservoirs, employing advanced technologies and innovative methodologies.</p>
                     </div> 
                 </div>
-                <div className="whyus-item border w-1/4">
+                <div className="whyus-item border w-1/4 py-6">
                     <div className="why-us-img-main border">
-                        <img className="why-us-img" src = {chemical} alt="employees"/>
+                        <img className="why-us-img" src = {oilRig} alt="employees"/>
                     </div>
-                    <div className="whyus-item-captions text-center mt-8">
-                        <h1 className=" font-medium">Dedicated Personnel</h1>
-                        <p className="text-sm mt-2 text-gray-600">Together, we create a dynamic work environment where creativity thrives, ideas flourish, and challenges are met with enthusiasm</p>
+                    <div className="whyus-item-captions text-center mt-8 px-8">
+                        <h1 className=" font-medium">Oil Reserves</h1>
+                        <p className="text-sm mt-2 text-gray-600">We ensure that our clients achieve the highest possible power output from their reservoir assets</p>
                     </div>  
                 </div>
-                <div className="whyus-item border w-1/4">
+                <div className="whyus-item border w-1/4 py-6">
                     <div className="why-us-img-main border">
-                        <img className="why-us-img" src = {employees} alt="employees"/>
+                        <img className="why-us-img" src = {development} alt="employees"/>
                     </div>
-                    <div className="whyus-item-captions text-center mt-8">
-                        <h1 className=" font-medium">Dedicated Personnel</h1>
-                        <p className="text-sm mt-2 text-gray-600">Together, we create a dynamic work environment where creativity thrives, ideas flourish, and challenges are met with enthusiasm</p>
+                    <div className="whyus-item-captions text-center mt-8 px-8">
+                        <h1 className=" font-medium">Development</h1>
+                        <p className="text-sm mt-2 text-gray-600">We tailor development plans that optimize recovery and maximize economic returns</p>
                     </div>
                 </div>
             </div>
-            <div className="flex whyus-lower border">
-
+            <div className="flex whyus-lower mt-4 border">
+                <div className="whyus-item border w-1/4 py-6">
+                    <div className="why-us-img-main border">
+                        <img className="why-us-img" src = {flask} alt="employees"/>
+                    </div>
+                    <div className="whyus-item-captions text-center mt-8 px-8">
+                        <h1 className=" font-medium">Chemical Evaluation</h1>
+                        <p className="text-sm mt-2 text-gray-600">We unravel the complexities of reservoir fluids, providing essential insights into their composition and behavior.</p>
+                    </div>
+                </div>
+                <div className="whyus-item border w-1/4 py-6">
+                    <div className="why-us-img-main border">
+                        <img className="why-us-img" src = {tank} alt="employees"/>
+                    </div>
+                    <div className="whyus-item-captions text-center mt-8 px-8">
+                        <h1 className=" font-medium">We Combat Pollution</h1>
+                        <p className="text-sm mt-2 text-gray-600">we develop and deploy eco-friendly drilling and extraction techniques</p>
+                    </div> 
+                </div>
+                <div className="whyus-item border w-1/4 py-6">
+                    <div className="why-us-img-main border">
+                        <img className="why-us-img" src = {gasStation} alt="employees"/>
+                    </div>
+                    <div className="whyus-item-captions text-center mt-8 px-8">
+                        <h1 className=" font-medium">We Consider the Consumers</h1>
+                        <p className="text-sm mt-2 text-gray-600">We prioritize the development of technologies and practices that enhance energy efficiency and product quality</p>
+                    </div>  
+                </div>
+                <div className="whyus-item border w-1/4 py-6">
+                    <div className="why-us-img-main border">
+                        <img className="why-us-img" src = {recycle} alt="employees"/>
+                    </div>
+                    <div className="whyus-item-captions text-center mt-8 px-8">
+                        <h1 className=" font-medium">Environment Matters to Us</h1>
+                        <p className="text-sm mt-2 text-gray-600">Our commitment to environmental stewardship is at the heart of our petroleum engineering practices</p>
+                    </div>
+                </div>
             </div>
         </div>
     )

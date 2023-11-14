@@ -9,6 +9,16 @@ import About from "../components/About";
 import Services from "../components/Services";
 import WhyUs from "../components/WhyUs";
 
+import { AnimatedOnScroll } from "react-animated-css-onscroll";
+
+const Page = (props) => {
+    const { children, ...rest } = props;
+    return (
+        <div {...rest} className="page">
+            {children}
+        </div>
+    );
+};
 
 const HomePage = () => {
     return (
@@ -82,12 +92,18 @@ const HomePage = () => {
                     </Carousel>
                 </div>
             </div> 
-            <div className="about-landing px-8 py-4 border">
-                <About />
-            </div> 
-            <div className="services-landing border px-8 py-4">
-                <Services />
-            </div>
+            <AnimatedOnScroll animationIn="fadeInDownBig">
+                <Page children="fadeInDownBig" />
+                <div className="about-landing px-8 py-4 border">
+                    <About />
+                </div> 
+            </AnimatedOnScroll>
+            <AnimatedOnScroll animationIn="fadeInDownBig">
+                <div className="services-landing border px-8 py-4">
+                    <Services />
+                </div>
+            </AnimatedOnScroll>
+            
             <div className="whyUs-landing border px-8 py-4">
                 <WhyUs />
             </div>     
