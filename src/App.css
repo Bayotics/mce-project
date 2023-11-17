@@ -218,20 +218,54 @@ body{
   background-size: 100% 100%;
   background-attachment: fixed;
 }
+.testimonial-carousel{
+  height: 500px;
+  width: 100%;
+}
 .testimonials-span{
   margin: auto;
   border: 2px solid rgb(75, 138, 75);
   margin-top: 10px;
 }
 .test-one{
-  height: 300px;
+  height: 95%;
   width: 100%;
 }
-
-
-
-
-
+.clients-img-one{
+  height: 180px;
+  width: 180px;
+  background: url(../src/assets/images/team-one.png);
+  background-size: 100% 100%;
+  margin: auto;
+  margin-top: 30px;
+}
+.clients-img-two{
+  height: 180px;
+  width: 180px;
+  background: url(../src/assets/images/team-two.png);
+  background-size: 100% 100%;
+  margin: auto;
+  margin-top: 30px;
+}
+.clients-img-three{
+  height: 180px;
+  width: 180px;
+  background: url(../src/assets/images/team-three.png);
+  background-size: 100% 100%;
+  margin: auto;
+  margin-top: 30px;
+}
+.client-one{
+  text-align: -webkit-center;
+  transition: .5s;
+}
+.client-one:hover{
+  border: 1px solid rgb(188, 238, 188);
+}
+.client-one img{
+  width: 150px;
+  height: 100px;
+}
 
 
 

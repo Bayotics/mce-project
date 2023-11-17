@@ -1,4 +1,3 @@
-import teamOne from "../assets/images/team-one.png"
 
 const Team = () => {
     return(
