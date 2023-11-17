@@ -8,6 +8,9 @@
       transform: translateY(0);
   }
 }
+body{
+  background-color: rgb(253, 255, 252);
+}
 .snap-mandatory{
   border-radius: 0;
 }
@@ -168,3 +171,77 @@
   background-color: rgb(54, 73, 54);
   color: white;
 }
+.team-landing{
+  position: relative;
+  top: 850px;
+}
+.team-img-one{
+  height: 180px;
+  width: 180px;
+  background: url(../src/assets/images/team-one.png);
+  background-size: 100% 100%;
+  margin: auto;
+}
+.team-img-two{
+  height: 180px;
+  width: 180px;
+  background: url(../src/assets/images/team-two.png);
+  background-size: 100% 100%;
+  margin: auto;
+}
+.team-img-three{
+  height: 180px;
+  width: 180px;
+  background: url(../src/assets/images/team-three.png);
+  background-size: 100% 100%;
+  margin: auto;
+}
+.team-img-four{
+  height: 180px;
+  width: 180px;
+  background: url(../src/assets/images/team-four.png);
+  background-size: 100% 100%;
+  margin: auto;
+}
+/* .team-menu{
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  opacity: 1;
+  border-radius: 50%;
+  display: none;
+} */
+.ourClients-landing{
+  position: relative;
+  top: 860px;
+  background-image: url(../src/assets/images/clients-bg.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.testimonials-span{
+  margin: auto;
+  border: 2px solid rgb(75, 138, 75);
+  margin-top: 10px;
+}
+.test-one{
+  height: 300px;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

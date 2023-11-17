@@ -9,6 +9,8 @@ import About from "../components/About";
 import Services from "../components/Services";
 import WhyUs from "../components/WhyUs";
 import LatestProjects from "../components/LatestProjects";
+import Team from "../components/Team";
+import OurClients from "../components/ourClients";
 
 
 
@@ -96,6 +98,12 @@ const HomePage = () => {
             <div className="latest-project-landing border py-12">
                 <LatestProjects />
             </div>   
+            <div className="team-landing border py-12">
+                <Team />
+            </div>
+            <div className="ourClients-landing border py-12">
+                <OurClients />
+            </div>
         </div>
     )
 }
