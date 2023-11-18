@@ -10,7 +10,7 @@ import Services from "../components/Services";
 import WhyUs from "../components/WhyUs";
 import LatestProjects from "../components/LatestProjects";
 import Team from "../components/Team";
-import OurClients from "../components/ourClients";
+import OurClients from "../components/OurClients";
 
 
 
@@ -18,33 +18,6 @@ const HomePage = () => {
     return (
         <div className="main-banner w-full">
             <div className="hero-main">
-                <div className=" main-nav flex px-8">
-                        <div className="w-2/6  justify-center pt-4 pl-10">
-                            <img className="h-4/6" src = {mainLogo} alt="moi logo"/>
-                        </div>
-                        <div className="w-4/6 pt-8 ">
-                            <div className=" flex ">
-                                <div className="flex  text-white font-semibold w-10/12 justify-between">
-                                    <div className="nav-item">HOME</div>
-                                    <div className="nav-item">ABOUT</div>
-                                    <div className="nav-item">PORTFOLIO</div>
-                                    <div className="nav-item">SERVICES</div>
-                                    <div className="nav-item">CONTACT US</div>
-                                </div>
-                                <div className="nav-socials  justify-between flex w-2/12 px-4 pt-1">
-                                    <div className="facebook-ico">
-                                        <img src= {fbLogo} alt="fb nav logo" className="h-4 w-4"/>
-                                    </div>
-                                    <div className="twitter-ico">
-                                        <img src = {twitterLogo} alt="twitter nav logo" className="h-4 w-4"/>
-                                    </div>
-                                    <div className="instagram-ico">
-                                        <img src = {igLogo} alt="instagram nav logo" className="h-4 w-4"/>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                </div>
                 <div className="main-hero-wrapper">
                     <Carousel>
                         <div className="carousel-container-one">
@@ -86,24 +59,24 @@ const HomePage = () => {
                     </Carousel>
                 </div>
             </div> 
-            <div className="about-landing px-8 py-4 border">
+            <div className="about-landing px-8 py-4">
                 <About />
             </div> 
-            <div className="services-landing border px-8 py-4">
+            <div className="services-landing px-8 py-4">
                 <Services />
             </div>            
-            <div className="whyUs-landing border px-8 py-4">
+            <div className="whyUs-landing px-8 py-4">
                 <WhyUs />
             </div>   
-            <div className="latest-project-landing border py-12">
+            <div className="latest-project-landing py-12">
                 <LatestProjects />
             </div>   
-            <div className="team-landing border py-12">
+            <div className="team-landing py-12">
                 <Team />
             </div>
-            <div className="ourClients-landing border py-12">
+            {/* <div className="ourClients-landing py-12">
                 <OurClients />
-            </div>
+            </div> */}
         </div>
     )
 }

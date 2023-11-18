@@ -11,6 +11,7 @@
 body{
   background-color: rgb(253, 255, 252);
 }
+/* **************HOME PAGE  *************/
 .snap-mandatory{
   border-radius: 0;
 }
@@ -257,19 +258,128 @@ body{
 }
 .client-one{
   text-align: -webkit-center;
-  transition: .5s;
-}
-.client-one:hover{
-  border: 1px solid rgb(188, 238, 188);
 }
 .client-one img{
   width: 150px;
   height: 100px;
 }
+footer{
+  position: relative;
+  top: 950px;
+  background-color: rgb(41, 51, 46);
+}
+.social-ico{
+  transition: .5s;
+}
+.social-ico:hover{
+  border: 2px solid rgb(107, 196, 107);
+  color: 2px solid rgb(107, 196, 107);
+}
 
 
 
+/*************ABOUT PAGE  ***************/
+.about-main{
+  /* padding-bottom: 100px; */
+}
+.main-about-hero{
+  height: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: url(../src//assets/images/wp-bg-2-edited.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.about-page-content{
+  position: relative;
+  top: 500px;
+}
+.about-page-section{
+  position: relative;
+  top: 550px;
+}
+.about-section-pic{
+  background-image: url(../src/assets/images/survey.jpg);
+  background-size: 100% 100%;
+}
+.about-team{
+  position: relative;
+  top: 610px;
+}
+.about-testimonials {
+  position: relative;
+  top: 680px;
+  background-image: url(../src/assets/images/clients-bg.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
 
+
+/************** Services page  **************/
+
+.main-services-hero{
+  height: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: url(../src//assets/images/wp-bg-5-edited.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.services-page-content{
+  position: relative;
+  top: 500px;
+}
+.servics-page-section{
+  position: relative;
+  top: 550px;
+}
+.services-section-pic{
+  background-image: url(../src/assets/images/wp-bg-1.jpg);
+  background-size: 100% 100%;
+}
+.services-page-main{
+  position: relative;
+  top: 700px;
+}
+
+
+
+/********** Contact Page ***********/
+.main-contact-hero{
+  height: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: url(../src//assets/images/wp-bg-6-edited.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.services-input{
+  position: relative;
+  top: 650px;
+}
+.services-input input{
+  height: 45px;
+}
+
+
+
+/********** Portfolio  ************/
+.main-portfolio-hero{
+  height: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: url(../src//assets/images/wp-bg-6-edited.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
 
 
 

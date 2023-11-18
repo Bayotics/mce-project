@@ -10,7 +10,7 @@ import recycle from "../assets/images/pngs/recycle.png";
 
 const WhyUs = () => {
     return(
-        <div className="why-us-main border  px-16 py-4">
+        <div className="why-us-main  px-16 py-4">
             <div className="whyus-caption text-center  ">
                 <h1 className="text-3xl font-bold">We Supply Energy</h1>
                 <div className="w-1/12 services-span"></div>

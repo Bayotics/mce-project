@@ -21,7 +21,6 @@ const OurClients = () => {
                     <div className='testimonial-carousel-one'>
                         <div className='test-one  '>
                             <div className='clients-img-one rounded-full   mt-6'>
-                                {/* ❝ */}
                             </div>
                             <p className='mt-4 text-white text-center text-xl'><span className='font-bold text-3xl'>❝</span> The commitment to quality and customer satisfaction is truly commendable. Moi Chemineer has become our trusted partner, and I highly recommend their services to anyone in need of top-notch chemical engineering expertise<span className='font-bold text-3xl'>❞</span></p>
                             <h1 className='font-bold text-2xl text-center text-green-300 mt-4'>Gabriella Farell, Alan Oil</h1>
@@ -30,7 +29,6 @@ const OurClients = () => {
                     <div className='testimonial-carousel-one'>
                         <div className='test-one  '>
                             <div className='clients-img-two rounded-full   mt-6'>
-                                {/* ❝ */}
                             </div>
                             <p className='mt-4 text-white text-center text-xl'><span className='font-bold text-3xl'>❝</span> What sets Moi Chemineer apart is their ability to translate complex technical concepts into practical and cost-effective solutions<span className='font-bold text-3xl'>❞</span></p>
                             <h1 className='font-bold text-2xl text-center text-green-300 mt-4'>John Snow, Operations Manager, Green Synthetics Ltd</h1>
@@ -39,7 +37,6 @@ const OurClients = () => {
                     <div className='testimonial-carousel-one'>
                         <div className='test-one  '>
                             <div className='clients-img-three rounded-full   mt-6'>
-                                {/* ❝ */}
                             </div>
                             <p className='mt-4 text-white text-center text-xl'><span className='font-bold text-3xl'>❝</span> Working with Moi Chemineer has been a game-changer for our company, and we highly recommend their services to anyone seeking expertise in chemical engineering<span className='font-bold text-3xl'>❞</span></p>
                             <h1 className='font-bold text-2xl text-center text-green-300 mt-4'>Dr. Carter, Chief Scientist, BioInnovate Solutions</h1>

@@ -9,8 +9,12 @@ const Services = () => {
     return (
         <div className=" pt-4">
             <div className="px-16 mt-8 services-landing-main">
-                <h1 className="text-center">*********</h1>
-                <div className="services-landing-innner mt-8 gap-8 flex">
+                <div className="services-caption-top text-center  ">
+                    <h1 className="text-3xl font-bold">What we do</h1>
+                    <div className="w-1/12 services-span"></div>
+                    <p className="mt-4 text-gray-500 text-lg font-medium"></p>
+                </div>
+                <div className="services-landing-innner mt-16 gap-8 flex">
                     <div className="w-1/3  rounded-lg pb-4 shadow-md">
                         <div className="services-img-upper">
                             <img src= {design} alt="design" className="services-img h-56 w-full rounded-t-lg " />
