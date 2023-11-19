@@ -23,16 +23,18 @@ const HomePage = () => {
                         <div className="carousel-container-one">
                             <div className="w-4/6 mt-48 pl-20 hero-left-captions">
                                 <div className="hero-captions ">
-                                    <h5 className="text-green-200 font-bold">INNOVATION REDEFINED</h5>
-                                    <h1 className="text-white font-bold text-5xl leading-normal mt-4"> Explore Excellence in Engineering at Moi Chemineer Limited</h1>
-                                    <p className="mt-8 text-white text-xl">We provide a range of sectors throughout Africa with sustainable solutions and services. Because of the calibre of our services, our clients and partners respect us.</p>
+                                    <h5 className="text-green-200 font-bold" id="hero-heading">INNOVATION REDEFINED</h5>
+                                    <h1 className="text-white font-bold text-5xl leading-normal mt-4" id="hero-bold"> Explore Excellence in Engineering at Moi Chemineer Limited</h1>
+                                    <div id = "hero-p-main">
+                                        <p id="hero-p" className="mt-8 text-white text-xl">We provide a range of sectors throughout Africa with sustainable solutions and services. Because of the calibre of our services, our clients and partners respect us.</p>
+                                    </div>
                                 </div>
                                 <div className="hero-explore ">
                                     <button className="hero-btn mt-10">EXPLORE</button>
                                 </div>
                             </div>
                         </div>
-                        <div className="carousel-container-two">
+                        {/* <div className="carousel-container-two">
                             <div className="w-4/6 mt-48 pl-20 hero-left-captions">
                                 <div className="hero-captions ">
                                     <h5 className="text-green-200 font-bold">UNPARALLELED EXPERTISE</h5>
@@ -55,7 +57,7 @@ const HomePage = () => {
                                     <button className="hero-btn mt-10">EXPLORE</button>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </Carousel>
                 </div>
             </div> 

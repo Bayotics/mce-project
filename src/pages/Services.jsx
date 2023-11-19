@@ -23,6 +23,9 @@ const Service = () => {
             <div className="services-page-main">
                 <Services />
             </div>
+            <div className="latest-proj-btn text-center mt-8 services-btn">
+                <button className="latest-proj-btn-main">Contact Us Now</button>
+            </div>
         </div>
     )
 }

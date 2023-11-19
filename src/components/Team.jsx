@@ -1,11 +1,11 @@
 
 const Team = () => {
     return(
-        <div className="team-main    py-6 px-12">
+        <div className="team-main  py-6 px-12">
             <h1 className="font-bold text-4xl text-center">Meet The Team</h1>
             <div className="w-1/12 services-span"></div>
             <p className="mt-3 text-xl font-medium text-gray-500 text-center">Our team brings a wealth of engineering knowledge and experience to the forefront</p>
-            <div className="mt-10 flex gap-6 px-4">
+            <div className="mt-10 meet-the-team flex gap-6 px-4">
                 <div className="team-item team-one w-1/4   ">
                     <div className="team-img-one rounded-full   ">
                         {/* <div className="team-menu">

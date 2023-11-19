@@ -11,19 +11,18 @@ import Contact from './pages/Contact';
 import Service from './pages/Services';
 import Portfolio from './pages/Portfolio';
 
-
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
         <div>
           <div className=" main-nav flex px-8">
-            <div className="w-2/6  justify-center pt-4 pl-10">
-                <img className="h-4/6" src = {mainLogo} alt="moi logo"/>
+            <div className="w-2/6  justify-center pt-4 pl-10" id='nav-logo'>
+                <img className="h-4/6" id='moi-logo' src = {mainLogo} alt="moi logo"/>
             </div>
-            <div className="w-4/6 pt-8 ">
-                <div className=" flex ">
-                    <div className="flex  text-white font-semibold w-10/12 justify-between">
+            <div className="w-4/6 pt-8" id='nav-menu-main'>
+                <div className="flex" id='nav-menu'>
+                    <div className="flex  text-white font-semibold w-10/12 justify-between nav-menu-main">
                         <Link to= "/"><div className="nav-item">HOME</div></Link>
                         
                         <Link to= "/aboutus"> <div className="nav-item">ABOUT</div></Link>
@@ -37,15 +36,16 @@ function App() {
                     </div>
                     <div className="nav-socials  justify-between flex w-2/12 px-8 pt-0 ">
                         <div className="facebook-ico">
-                            <i class="fa fa-facebook text-white" aria-hidden="true"></i>
+                            <i className="fa fa-facebook text-white" aria-hidden="true"></i>
                         </div>
                         <div className="twitter-ico">
-                            <i class="fa fa-twitter text-white" aria-hidden="true"></i>
+                            <i className="fa fa-twitter text-white" aria-hidden="true"></i>
                         </div>
                         <div className="instagram-ico">
-                            <i class="fa fa-linkedin text-white" aria-hidden="true"></i>
+                            <i className="fa fa-linkedin text-white" aria-hidden="true"></i>
                         </div>
                     </div>
+                    <div className='bars'><i className="fa fa-bars text-white" aria-hidden="true"></i></div>
                 </div>
             </div>
           </div>
@@ -56,7 +56,8 @@ function App() {
           <Route path = '/aboutus' element = {<About/>} />
           <Route path = '/contact' element = {<Contact/>} />
           <Route path = '/services' element = {<Service/>} />    
-          <Route path = '/portfolio' element = {<Portfolio/>} />    
+          <Route path = '/portfolio' element = {<Portfolio/>} />
+
         </Routes>
         <footer className='border'>
           <Footer />

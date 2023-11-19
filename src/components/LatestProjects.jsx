@@ -3,7 +3,7 @@ import latestProjectOne from "../assets/images/latest-proj-one.jpg"
 
 const LatestProjects = () => {
     return(
-        <div className="px-16 py-4 mt-2">
+        <div className="latest-proje-main px-16 py-4 mt-2">
             <div className="latest-poject-heading">
                 <h1 className="font-bold text-4xl text-center">Our Latest Projects</h1>
                 <div className="w-1/12 services-span"></div>
@@ -13,25 +13,25 @@ const LatestProjects = () => {
                         <div className="latest-proj-img  ">
                         </div>
                         <h1 className="mt-4 text-center font-bold text-lg">
-                            Project One
+                            Piping
                         </h1>
-                        <p className="text-center text-gray-400">This is the first Project</p>
+                        <p className="text-center text-gray-400">Tank farm 2, Oron</p>
                     </div>
                     <div className="latest-proj-left w-1/3   bg-white pb-8">
                         <div className="latest-proj-img-two  ">
                         </div>
                         <h1 className="mt-4 text-center font-bold text-lg">
-                            Project Two
+                            Rehabilitation
                         </h1>
-                        <p className="text-center text-gray-400">This is the second Project</p>
+                        <p className="text-center text-gray-400">EMADEB Depot</p>
                     </div>
                     <div className="latest-proj-left w-1/3   bg-white pb-8">
                         <div className="latest-proj-img-three  ">   
                         </div>
                         <h1 className="mt-4 text-center font-bold text-lg">
-                            Project Three
+                            Rehabilitation
                         </h1>
-                        <p className="text-center text-gray-400">This is the third Project</p>
+                        <p className="text-center text-gray-400">First Deep water depot</p>
                     </div>
                 </div>
                 <div className="latest-proj-btn text-center mt-8">
