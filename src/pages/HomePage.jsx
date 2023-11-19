@@ -11,6 +11,7 @@ import WhyUs from "../components/WhyUs";
 import LatestProjects from "../components/LatestProjects";
 import Team from "../components/Team";
 import OurClients from "../components/OurClients";
+import { Link } from 'react-router-dom';
 
 
 
@@ -30,11 +31,11 @@ const HomePage = () => {
                                     </div>
                                 </div>
                                 <div className="hero-explore ">
-                                    <button className="hero-btn mt-10">EXPLORE</button>
+                                    <Link to= '/services'><button className="hero-btn mt-10">EXPLORE</button></Link>
                                 </div>
                             </div>
                         </div>
-                        {/* <div className="carousel-container-two">
+                        <div className="carousel-container-two">
                             <div className="w-4/6 mt-48 pl-20 hero-left-captions">
                                 <div className="hero-captions ">
                                     <h5 className="text-green-200 font-bold">UNPARALLELED EXPERTISE</h5>
@@ -42,7 +43,7 @@ const HomePage = () => {
                                     <p className="mt-8 text-white text-xl">We are committed to making a world class difference in Engineering, Construction, Plant design and development. </p>
                                 </div>
                                 <div className="hero-explore">
-                                    <button className="hero-btn mt-10">EXPLORE</button>
+                                    <Link to= '/services'><button className="hero-btn mt-10">EXPLORE</button></Link>
                                 </div>
                             </div>
                         </div>
@@ -54,10 +55,10 @@ const HomePage = () => {
                                     <p className="mt-8 text-white text-xl">We provide a range of sectors throughout Africa with sustainable solutions and services. Because of the calibre of our services, our clients and partners respect us.</p>
                                 </div>
                                 <div className="hero-explore">
-                                    <button className="hero-btn mt-10">EXPLORE</button>
+                                    <Link to= '/services'><button className="hero-btn mt-10">EXPLORE</button></Link>
                                 </div>
                             </div>
-                        </div> */}
+                        </div>
                     </Carousel>
                 </div>
             </div> 

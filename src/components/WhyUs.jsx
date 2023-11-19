@@ -6,6 +6,8 @@ import flask from "../assets/images/pngs/flask.png";
 import tank from "../assets/images/pngs/tank.png"
 import gasStation from "../assets/images/pngs/gas_station.png"
 import recycle from "../assets/images/pngs/recycle.png";
+import { Link } from 'react-router-dom';
+
 
 
 const WhyUs = () => {
@@ -99,7 +101,7 @@ const WhyUs = () => {
                     </h1>
                     <p className="mt-6 text-xl text-gray-500 leading-normal">Our consulting services at Moi are founded on a rich tapestry of experience, blending technical proficiency with a forward-thinking approach to address the dynamic challenges of the industry.</p>
                     <p className="mt-2 text-xl text-gray-500 leading-normal"> With a commitment to excellence, we provide tailored solutions that align with the unique goals and requirements of each client</p>
-                    <button className="consult-btn mt-8">Contact Us Now</button>
+                    <Link to = '/contact'><button className="consult-btn mt-8">Contact Us Now</button></Link>
                 </div>
                 <div className="consulting-landing-right w-1/2">
 

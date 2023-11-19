@@ -121,6 +121,11 @@ const Portfolio = () => {
                             open={open}
                             close={() => setOpen(false)}
                             slides={[
+                            { src: oronone },
+                            { src: orontwo },
+                            { src: oronthree },
+                            { src: oronfour },
+                            { src: oronfive },
                             { src: emadebone },
                             { src: emadebtwo },
                             { src: emadebthree },
@@ -131,11 +136,7 @@ const Portfolio = () => {
                             { src: testimonial3 },
                             { src: testimonial4 },
                             { src: testimonial5 },
-                            { src: oronone },
-                            { src: orontwo },
-                            { src: oronthree },
-                            { src: oronfour },
-                            { src: oronfive },
+                            
                             ]}
                         />
                     </div>

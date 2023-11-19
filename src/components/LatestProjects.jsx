@@ -1,4 +1,4 @@
-import latestProjectOne from "../assets/images/latest-proj-one.jpg"
+import { Link } from 'react-router-dom';
 
 
 const LatestProjects = () => {
@@ -35,7 +35,9 @@ const LatestProjects = () => {
                     </div>
                 </div>
                 <div className="latest-proj-btn text-center mt-8">
-                    <button className="latest-proj-btn-main">View Our Portfolio →</button>
+                    <Link to = "/portfolio">
+                        <button className="latest-proj-btn-main">View Our Portfolio →</button>
+                    </Link>
                 </div>
             </div>
         </div>

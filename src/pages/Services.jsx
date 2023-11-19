@@ -1,4 +1,5 @@
 import Services from "../components/Services";
+import { Link } from 'react-router-dom';
 
 const Service = () => {
     return (
@@ -24,7 +25,7 @@ const Service = () => {
                 <Services />
             </div>
             <div className="latest-proj-btn text-center mt-8 services-btn">
-                <button className="latest-proj-btn-main">Contact Us Now</button>
+                <Link to = "/contact"><button className="latest-proj-btn-main">Contact Us Now</button></Link>
             </div>
         </div>
     )
