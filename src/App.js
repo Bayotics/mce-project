@@ -1,8 +1,5 @@
 import './App.css';
 import mainLogo from "./assets/images/moi-full-logo-transformed.png";
-import fbLogo from "./assets/images/fb-logo.png";
-import twitterLogo from './assets/images/twitter-logo.png';
-import igLogo from "./assets/images/ig-logo.png";
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
@@ -101,7 +98,6 @@ function App() {
             </div>
           </div>
         </div>
-        {/* animations on scroll */}
         <Routes>
           <Route path = '/' element = {<HomePage />} />
           <Route path = '/aboutus' element = {<About/>} />

@@ -37,6 +37,12 @@ body{
   top: 0;
   width: 100%;
 }
+.nav-item{
+  transition: .5s;
+}
+.nav-item:hover{
+  color: rgb(77, 160, 77);
+}
 .about-dropdown{
   position: absolute;
   top: 60px;
@@ -457,6 +463,12 @@ footer{
   width: 100%;
   background-image: url(../src/assets/images/portfolios/emadebeight.jpg);
   background-size: 100% 100%;
+}
+.footer-link{
+  transition: .3s;
+}
+.footer-link:hover{
+  color: rgb(31, 105, 31);
 }
 
 

@@ -61,6 +61,7 @@ const Footer = () => {
                     <p className="text-gray-400 mt-4"><span className="pr-4"><i className="fa fa-envelope" aria-hidden="true"></i></span>moichemineerltd@gmail.com</p>
                 </div>
             </div>
+            <p className="text-xs mt-8 text-gray-400 text-center">Copyright © Moi chemineer Ltd 2023. All right reserved. design by <a href="https://twitter.com/unclebayotics"  target ="blank" className="footer-link">Unclebayotics</a></p>
         </div>
     )
 }
