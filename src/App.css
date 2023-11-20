@@ -25,11 +25,28 @@ body{
 .bars{
   display: none;
 }
+.mobile-nav{
+  position: absolute;
+  top: 30px;
+  width: 40%;
+  transition: 1s;
+}
 .main-nav{
   position: absolute;
   z-index: 1;
   top: 0;
   width: 100%;
+}
+.about-dropdown{
+  position: absolute;
+  top: 60px;
+  width: 250px;
+  height: 170px;
+  display: none;
+  padding-left: 10px;
+}
+.nav-about:hover + .about-dropdown{
+  display: block;
 }
 .carousel-container-one{
   background-image: url(../src/assets/images/bg-two.jpg);
@@ -53,13 +70,16 @@ body{
   background-color: rgb(54, 73, 54);
   color: white;
 }
-.hero-left-captions{
+.hero-captions{
   animation-duration: 5s;
   animation-fill-mode: both;
   animation-name: fadeInAnimation;
 }
-.hero-left-captions::after{
-  transition: fadeInAnimation ease 1s;
+.hero-captions::after{
+  transition: fadeInAnimation ease 6s;
+}
+.snap-center{
+  transition: transform 1s ease-in-out;
 }
 .carousel-container-two{
   background-image: url(../src/assets/images/bg-three.jpg);

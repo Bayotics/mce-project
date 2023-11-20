@@ -10,8 +10,14 @@ import About from './pages/AboutUs';
 import Contact from './pages/Contact';
 import Service from './pages/Services';
 import Portfolio from './pages/Portfolio';
+import { useState } from 'react';
 
 function App() {
+
+  const [nav, setNav] = useState(false)
+  const navToggler = () => {
+    setNav(!nav)
+  }
   return (
     <BrowserRouter>
       <div className="App">
@@ -27,11 +33,30 @@ function App() {
                     <div className="flex  text-white font-semibold w-10/12 justify-between nav-menu-main">
                         <Link to= "/"><div className="nav-item">HOME</div></Link>
                         
-                        <Link to= "/aboutus"> <div className="nav-item">ABOUT</div></Link>
+                        <Link to= "/aboutus"> <div className="nav-item nav-about">ABOUT <span className='text-sm'>▼</span> 
+                          </div>
+                          <div className='border about-dropdown bg-white text-black '>
+                              <ul>
+                                <li className='pb-2 pt-2 border-b'>Who we are</li>
+                                <li  className='pb-2 pt-2 border-b'>Mission Statement</li>
+                                <li  className='pb-2 pt-2 border-b'>Our team</li>
+                                <li  className='pb-2 pt-2'>Testimonials</li>
+                              </ul>
+                          </div>
+                        </Link>
                         
                         <Link to= "/portfolio"><div className="nav-item">PORTFOLIO</div></Link>
                         
-                        <Link to= "/services"><div className="nav-item">SERVICES</div></Link>
+                        <Link to= "/services"><div className="nav-item nav-about">SERVICES <span className='text-sm'>▼</span></div>
+                          <div className='border about-dropdown bg-white text-black '>
+                              <ul>
+                                <li className='pb-2 pt-2 border-b'>Design</li>
+                                <li  className='pb-2 pt-2 border-b'>Construction</li>
+                                <li  className='pb-2 pt-2 border-b'>Maintenance</li>
+                                <li  className='pb-2 pt-2'>Consultancy</li>
+                              </ul>
+                          </div>
+                        </Link>
                         
                         <Link to= "/contact"><div className="nav-item">CONTACT US</div></Link>
                         
@@ -49,7 +74,29 @@ function App() {
                             <i className="fa fa-linkedin text-white" aria-hidden="true"></i>
                         </div>
                     </div>
-                    <div className='bars'><i className="fa fa-bars text-white" aria-hidden="true"></i></div>
+                    <div className='bars'>
+                      <i className="fa fa-bars text-white" aria-hidden="true"
+                      onClick={navToggler}>
+                      </i>
+                    </div>
+                    {nav &&(
+                      <div className='mobile-nav text-white'>
+                        <Link to= "/"><div className="nav-item border-b">HOME</div></Link>
+                        
+                        <Link to= "/aboutus"> 
+                        <div className="nav-item border-b">
+                          ABOUT
+                          </div>
+                        </Link>
+                        
+                        <Link to= "/portfolio"><div className="nav-item border-b">PORTFOLIO</div></Link>
+                        
+                        <Link to= "/services"><div className="nav-item border-b">SERVICES</div></Link>
+                        
+                        <Link to= "/contact"><div className="nav-item">CONTACT US</div></Link>
+                      </div>
+                    )}
+                    
                 </div>
             </div>
           </div>

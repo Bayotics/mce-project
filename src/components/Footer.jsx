@@ -37,28 +37,28 @@ const Footer = () => {
                     <p className="text-gray-400 mt-6">Connect us on Social media</p>
                     <div className="flex social-icons gap-4 mt-6 w-4/6">
                         <div className=" social-ico w-1/5 border-2 justify-center text-center">
-                            <i class="fa fa-facebook text-white" aria-hidden="true"></i>
+                            <i className="fa fa-facebook text-white" aria-hidden="true"></i>
                         </div>
                         <div className=" social-ico w-1/5 border-2 justify-center text-center">
-                            <i class="fa fa-twitter text-white" aria-hidden="true"></i>
+                            <i className="fa fa-twitter text-white" aria-hidden="true"></i>
                         </div>
                         <div className=" social-ico w-1/5 border-2 justify-center text-center">
-                            <i class="fa fa-instagram text-white" aria-hidden="true"></i>
+                            <i className="fa fa-instagram text-white" aria-hidden="true"></i>
                         </div>
                         <div className=" social-ico w-1/5 border-2 justify-center text-center">
-                            <i class="fa fa-linkedin text-white" aria-hidden="true"></i>
+                            <i className="fa fa-linkedin text-white" aria-hidden="true"></i>
                         </div>
                         <div className=" social-ico w-1/5 border-2 justify-center text-center">
-                            <i class="fa fa-whatsapp text-white" aria-hidden="true"></i>
+                            <i className="fa fa-whatsapp text-white" aria-hidden="true"></i>
                         </div>
                     </div>
                 </div>
                 <div className="footer-contact w-1/4">
                     <h1 className="text-white font-bold">QUICK CONTACT</h1>
                     <p className="mt-4 text-gray-400">If you wish to contact us about any issue, our support available to help you 8am-7pm Monday to Saturday.</p>
-                    <p className="text-gray-400 mt-4"><span className="pr-4"><i class="fa fa-map-marker" aria-hidden="true"></i></span> Suite 6, Block D, AOSEE Plaza, Festac Town Amuwo-odifin, Lagos, Nigeria</p>
-                    <p className="text-gray-400 mt-4"><span className="pr-4"><i class="fa fa-phone" aria-hidden="true"></i></span>+234 (802) 249-3235</p>
-                    <p className="text-gray-400 mt-4"><span className="pr-4"><i class="fa fa-envelope" aria-hidden="true"></i></span>moichemineerltd@gmail.com</p>
+                    <p className="text-gray-400 mt-4"><span className="pr-4"><i className="fa fa-map-marker" aria-hidden="true"></i></span> Suite 6, Block D, AOSEE Plaza, Festac Town Amuwo-odifin, Lagos, Nigeria</p>
+                    <p className="text-gray-400 mt-4"><span className="pr-4"><i className="fa fa-phone" aria-hidden="true"></i></span>+234 (802) 249-3235</p>
+                    <p className="text-gray-400 mt-4"><span className="pr-4"><i className="fa fa-envelope" aria-hidden="true"></i></span>moichemineerltd@gmail.com</p>
                 </div>
             </div>
         </div>
